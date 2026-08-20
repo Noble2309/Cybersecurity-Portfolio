@@ -1,0 +1,7 @@
+# Repository/deployment metadata that should not be served as site assets
+.git*
+.github/
+README.md
+COPYRIGHT.md
+wrangler.jsonc
+.assetsignore
