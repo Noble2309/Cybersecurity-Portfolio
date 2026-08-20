@@ -82,6 +82,8 @@ Cybersecurity-Portfolio/
 ├── _headers
 ├── robots.txt
 ├── sitemap.xml
+├── wrangler.jsonc
+├── .assetsignore
 └── assets/
     ├── css/
     ├── js/
@@ -103,7 +105,7 @@ Then open `http://localhost:8000`.
 
 Live site: [https://cybersecurity-portfolio.noble2309.workers.dev/](https://cybersecurity-portfolio.noble2309.workers.dev/)
 
-The production origin is referenced by `robots.txt` and `sitemap.xml`. Future releases are deployed from the `main` branch.
+The site is deployed through Cloudflare Workers Builds from the `main` branch. `wrangler.jsonc` explicitly configures the repository root as the static-asset directory and enables the custom 404 page. `.assetsignore` excludes repository-only metadata from the deployed asset bundle.
 
 ## Copyright
 
