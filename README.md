@@ -4,8 +4,7 @@ A privacy-conscious static portfolio presenting penetration-testing experience, 
 
 ## Release status
 
-This package is the frozen pre-deployment v1.0 build. It includes the personal About section, current interests and credentials, the in-development project placeholder, privacy-conscious Contact copy, and the final accessibility/security baseline.
-
+This repository contains the production v1.0 release, deployed at [https://cybersecurity-portfolio.noble2309.workers.dev/](https://cybersecurity-portfolio.noble2309.workers.dev/). It includes the personal About section, current interests and credentials, the in-development project placeholder, privacy-conscious Contact copy, and the final accessibility/security baseline.
 
 ## Overview
 
@@ -59,7 +58,7 @@ No external fonts
 
 ## Security and privacy
 
-The intended Cloudflare deployment uses `_headers` to apply a restrictive policy including Content Security Policy, HSTS, clickjacking protection, MIME-sniffing protection, Referrer Policy, Permissions Policy and cross-origin isolation controls appropriate to the static site.
+The production Cloudflare deployment uses `_headers` to apply a restrictive policy including Content Security Policy, HSTS, clickjacking protection, MIME-sniffing protection, Referrer Policy, Permissions Policy and cross-origin isolation controls appropriate to the static site.
 
 The public source contains no personal email address, telephone number or street address. The downloadable CV is a separately sanitised public version with those details removed.
 
@@ -82,7 +81,7 @@ Cybersecurity-Portfolio/
 ├── README.md
 ├── _headers
 ├── robots.txt
-├── sitemap.template.xml
+├── sitemap.xml
 └── assets/
     ├── css/
     ├── js/
@@ -100,14 +99,11 @@ python3 -m http.server 8000
 
 Then open `http://localhost:8000`.
 
-## Deployment checklist
+## Production deployment
 
-Before the first public deployment:
+Live site: [https://cybersecurity-portfolio.noble2309.workers.dev/](https://cybersecurity-portfolio.noble2309.workers.dev/)
 
-1. Confirm the final public origin/domain.
-2. Replace `{{SITE_URL}}` in `sitemap.template.xml` with that origin, save the result as `sitemap.xml`, and add its absolute URL to `robots.txt`.
-3. Add canonical URLs and an absolute social-preview image URL once the final origin is known.
-4. Re-run link, responsive, privacy and security-header checks against the deployed origin.
+The production origin is referenced by `robots.txt` and `sitemap.xml`. Future releases are deployed from the `main` branch.
 
 ## Copyright
 
