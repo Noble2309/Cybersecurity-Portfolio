@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Replace {{SITE_URL}} with the final public origin before deployment and save as sitemap.xml. -->
+  <url><loc>{{SITE_URL}}/</loc></url>
+  <url><loc>{{SITE_URL}}/projects.html</loc></url>
+  <url><loc>{{SITE_URL}}/about.html</loc></url>
+  <url><loc>{{SITE_URL}}/cv.html</loc></url>
+  <url><loc>{{SITE_URL}}/contact.html</loc></url>
+  <url><loc>{{SITE_URL}}/copyright.html</loc></url>
+</urlset>

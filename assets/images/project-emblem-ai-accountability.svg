@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">AI Accountability for SOCs emblem</title>
+  <desc id="desc">A three-pillar governance emblem connecting technical safeguards, regulatory alignment and ethical oversight to a central AI system.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="48%" r="58%">
+      <stop offset="0" stop-color="#7c6cff" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#7c6cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9a8dff"/>
+      <stop offset="1" stop-color="#5aa7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="#0e131b"/>
+  <rect width="720" height="480" fill="url(#glow)"/>
+  <g opacity=".20" stroke="#aeb8ca" stroke-width="1">
+    <circle cx="360" cy="240" r="152"/>
+    <circle cx="360" cy="240" r="102"/>
+  </g>
+  <g fill="none" stroke="url(#line)" stroke-width="3.5" stroke-linecap="round">
+    <path d="M360 170V105"/>
+    <path d="M297 282L206 336"/>
+    <path d="M423 282L514 336"/>
+  </g>
+  <g>
+    <circle cx="360" cy="90" r="44" fill="#111724" stroke="#8f85f7" stroke-width="3"/>
+    <path d="M337 92h46M344 80h32M350 104h20" stroke="#c7c1ff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g>
+    <circle cx="184" cy="350" r="44" fill="#111724" stroke="#688fd5" stroke-width="3"/>
+    <path d="M160 354h48M172 333v42M196 333v42" stroke="#b7cef5" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g>
+    <circle cx="536" cy="350" r="44" fill="#111724" stroke="#689fdc" stroke-width="3"/>
+    <path d="M514 350c11-15 33-15 44 0-11 15-33 15-44 0z" fill="none" stroke="#b9dbff" stroke-width="4"/>
+    <circle cx="536" cy="350" r="6" fill="#b9dbff"/>
+  </g>
+  <g>
+    <path d="M360 160l72 42v76l-72 42-72-42v-76z" fill="#101722" stroke="url(#line)" stroke-width="4"/>
+    <rect x="328" y="205" width="64" height="70" rx="12" fill="#0d131d" stroke="#899dff" stroke-width="3"/>
+    <g stroke="#b6c9ff" stroke-width="3" stroke-linecap="round">
+      <path d="M342 222h36M342 239h36M342 256h22"/>
+      <path d="M320 218h-12M320 238h-12M320 258h-12M400 218h12M400 238h12M400 258h12"/>
+    </g>
+  </g>
+</svg>

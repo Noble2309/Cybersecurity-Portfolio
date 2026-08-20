@@ -6,6 +6,7 @@ A privacy-conscious static portfolio presenting penetration-testing experience, 
 
 This package is the frozen pre-deployment v1.0 build. It includes the personal About section, current interests and credentials, the in-development project placeholder, privacy-conscious Contact copy, and the final accessibility/security baseline.
 
+
 ## Overview
 
 The portfolio uses a technical-editorial design language rather than a stereotypical hacker aesthetic: dark graphite surfaces, restrained blue accents, strong typography, selective monospace detail, custom project emblems and subtle micro-interactions.
@@ -44,7 +45,7 @@ Browser
   |-- HTML
   |-- CSS
   |-- Vanilla JavaScript (progressive enhancement only)
-  |-- SVG / WebP assets
+  |-- SVG assets
   `-- Public CV PDF
 
 No backend

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">LLM Prompt Injection Testing Methodology emblem</title>
+  <desc id="desc">A security testing emblem showing adversarial prompt input crossing a model boundary toward a protected tool action.</desc>
+  <defs>
+    <radialGradient id="glow" cx="48%" cy="48%" r="60%">
+      <stop offset="0" stop-color="#4bbcff" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#4bbcff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#68c4ff"/>
+      <stop offset="1" stop-color="#5a8fff"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="#0c1219"/>
+  <rect width="720" height="480" fill="url(#glow)"/>
+  <g opacity=".24" stroke="#9eb3c8" stroke-width="1">
+    <path d="M90 118H630M90 362H630"/>
+    <path d="M255 76V404M465 76V404"/>
+  </g>
+  <g>
+    <rect x="96" y="164" width="190" height="152" rx="20" fill="#0d141d" stroke="#5f9fd8" stroke-width="3"/>
+    <path d="M120 202h55M120 230h96M120 258h70" stroke="#9fd3ff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M118 288l18 12-18 12" fill="none" stroke="#70b8f5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M148 305h38" stroke="#70b8f5" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M286 240h78"/>
+    <path d="M352 228l12 12-12 12"/>
+  </g>
+  <g>
+    <path d="M364 148h100v184H364" fill="#101823" stroke="#6fb7f5" stroke-width="4"/>
+    <path d="M386 190h55M386 220h42M386 250h59M386 280h32" stroke="#a9d6ff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M445 174l18 18-18 18" fill="none" stroke="#5aa7ff" stroke-width="4"/>
+  </g>
+  <g fill="none" stroke="#7ec5ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M464 240h78"/>
+    <path d="M530 228l12 12-12 12"/>
+  </g>
+  <g>
+    <rect x="542" y="188" width="86" height="104" rx="18" fill="#0d141d" stroke="#6baef0" stroke-width="3"/>
+    <path d="M568 229h34M568 250h34" stroke="#b4dcff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M585 174v-18" stroke="#6baef0" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="585" cy="151" r="8" fill="#9fd3ff"/>
+  </g>
+  <path d="M174 150c92-66 234-71 355-16" fill="none" stroke="#6eaef5" stroke-width="3" stroke-dasharray="7 10" opacity=".7"/>
+</svg>

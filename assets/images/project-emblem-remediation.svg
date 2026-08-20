@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Remediation Enablement Framework emblem</title>
+  <desc id="desc">A technical workflow emblem showing a finding moving through risk treatment and independent validation.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="44%" r="58%">
+      <stop offset="0" stop-color="#5aa7ff" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#5aa7ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7ab8ff"/>
+      <stop offset="1" stop-color="#4d8fd9"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="#0d141c"/>
+  <rect width="720" height="480" fill="url(#glow)"/>
+  <g opacity=".25" stroke="#9fb1c6" stroke-width="1">
+    <path d="M90 120H630M90 240H630M90 360H630"/>
+    <path d="M180 72V408M360 72V408M540 72V408"/>
+  </g>
+  <g fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M142 240H286"/>
+    <path d="M434 240H578"/>
+    <path d="M360 308V362H520"/>
+    <path d="M276 230l10 10-10 10M568 230l10 10-10 10M510 352l10 10-10 10"/>
+  </g>
+  <g>
+    <circle cx="118" cy="240" r="38" fill="#0d141c" stroke="#6eaef5" stroke-width="3"/>
+    <path d="M101 240h34M118 223v34" stroke="#a9d1ff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g>
+    <path d="M360 154l72 28v61c0 66-42 111-72 128-30-17-72-62-72-128v-61z" fill="#101923" stroke="#72b2fb" stroke-width="4"/>
+    <path d="M330 242l21 21 42-51" fill="none" stroke="#b8dbff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M323 303h74" stroke="#44698f" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g>
+    <circle cx="602" cy="240" r="38" fill="#0d141c" stroke="#6eaef5" stroke-width="3"/>
+    <path d="M584 241l13 13 24-30" fill="none" stroke="#b8dbff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="520" y="334" width="82" height="56" rx="14" fill="#0d141c" stroke="#4f86bd" stroke-width="2"/>
+    <path d="M544 362h34" stroke="#95c7ff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
